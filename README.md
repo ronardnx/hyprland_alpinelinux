@@ -20,7 +20,7 @@ git clone https://github.com/ronardnx/hyprland_alpinelinux &&
 cd hyprland_alpinelinux &&
 rm -rf .git && 
 cp -r .local/* ~/.local/ &&
-cp -r .config/* 
+cp -r .config/*  ~/.config/
 
 **3.** Setup your daemons and groups:
 
