@@ -7,9 +7,9 @@ add_newline = true
 palette = "catppuccin_mocha"
 
 [character]
-success_symbol = '[  ](bold mauve)'
-error_symbol = '[  ](bold brown)'
-vimcmd_symbol = '[  ](bold cyan)'
+success_symbol = '[  ](bold mauve)'
+error_symbol = '[  ](bold brown)'
+vimcmd_symbol = '[  ](bold cyan)'
 
 [palettes.catppuccin_latte]
 rosewater = "#dc8a78"
