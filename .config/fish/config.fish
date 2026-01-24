@@ -1,6 +1,5 @@
 ## Set values
 # Hide welcome message
-pokemon-colorscripts --no-title -r
 set fish_greeting
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
@@ -24,7 +23,7 @@ if test -d ~/.local/bin
     end
 end
 
-    source ("/usr/bin/starship" init fish --print-full-init | psub)
+    source (starship init fish --print-full-init | psub)
 
 
 # Replace ls with exa
