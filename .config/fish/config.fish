@@ -4,8 +4,6 @@ pokemon-colorscripts --no-title -r
 set fish_greeting
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
-mkdir -p 0700 /tmp/1000
-export XDG_RUNTIME_DIR=/tmp/1000
 
 
 ## Export variable need for qt-theme
@@ -31,7 +29,3 @@ end
 
 # Replace ls with exa
 alias ls='eza -a --color=always --group-directories-first --icons'  # all files and dirs
-alias bsdfetch='clear && neofetch'
-alias python='python3.9'
-alias startx="ck-launch-session dbus-run-session Hyprland"
-alias sudo='doas'
